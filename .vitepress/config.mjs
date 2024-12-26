@@ -6,6 +6,8 @@ export default defineConfig({
   title: "测试工程师笔记",
   description: "A VitePress Site",
   themeConfig: {
+    outlineTitle: "大纲",
+    outline: [2, 6],
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' }
@@ -41,5 +43,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/lliangzii/Become-a-Software-Tester' }
     ]
+
   }
 })
