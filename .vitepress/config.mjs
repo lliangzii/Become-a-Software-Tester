@@ -16,8 +16,11 @@ export default defineConfig({
       {
         text: 'Week 01',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'windows命令提示符', link: '/Week 01/windows命令提示符' },
+          { text: '软件测试概论（一）', link: '/Week 01/软件测试概论（一）' },
+          { text: '软件测试概论（二）', link: '/Week 01/软件测试概论（二）' },
+          { text: 'Linux基本操作（一）', link: '/Week 01/Linux基本操作（一）' },
+          { text: 'Linux基本操作（二）', link: '/Week 01/Linux基本操作（二）' },
         ]
       },
       {
