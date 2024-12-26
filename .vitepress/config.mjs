@@ -14,6 +14,12 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'preface',
+        items: [
+          { text: '前言', link: '/preface/前言' }
+        ]
+      },
+      {
         text: 'Week 01',
         items: [
           { text: 'windows命令提示符', link: '/Week 01/windows命令提示符' },
