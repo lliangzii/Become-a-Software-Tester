@@ -17,23 +17,24 @@ export default defineConfig({
         text: 'Week 01',
         items: [
           { text: 'windows命令提示符', link: '/Week 01/windows命令提示符' },
-          { text: '软件测试概论（一）', link: '/Week 01/软件测试概论（一）' },
-          { text: '软件测试概论（二）', link: '/Week 01/软件测试概论（二）' },
-          { text: 'Linux基本操作（一）', link: '/Week 01/Linux基本操作（一）' },
-          { text: 'Linux基本操作（二）', link: '/Week 01/Linux基本操作（二）' },
+          { text: '软件测试概论-01', link: '/Week 01/软件测试概论-01' },
+          { text: '软件测试概论-02', link: '/Week 01/软件测试概论-02' },
+          { text: 'Linux基本操作-01', link: '/Week 01/Linux基本操作-01' },
+          { text: 'Linux基本操作-02', link: '/Week 01/Linux基本操作-02' },
         ]
       },
       {
         text: 'Week 02',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'LinuxShell', link: '/Week 02/LinuxShell' },
+          { text: 'Docker部署', link: '/Week 02/Docker部署' },
+          { text: '测试用例的设计方法-01', link: '/Week 02/测试用例的设计方法-01' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/lliangzii/Become-a-Software-Tester' }
     ]
   }
 })
