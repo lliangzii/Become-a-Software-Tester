@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/Become-a-Software-Tester/",
   title: "测试工程师笔记",
   description: "A VitePress Site",
   themeConfig: {
