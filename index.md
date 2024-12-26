@@ -9,5 +9,5 @@ hero:
   actions:
     - theme: brand
       text: "   开  始   "
-      link: /Week 01/test1
+      link: /preface/前言
 ---
