@@ -24,10 +24,8 @@ export default defineConfig({
         text: 'Week 01',
         items: [
           { text: 'windows命令提示符', link: '/Week 01/windows命令提示符' },
-          { text: '软件测试概论-01', link: '/Week 01/软件测试概论-01' },
-          { text: '软件测试概论-02', link: '/Week 01/软件测试概论-02' },
-          { text: 'Linux基本操作-01', link: '/Week 01/Linux基本操作-01' },
-          { text: 'Linux基本操作-02', link: '/Week 01/Linux基本操作-02' },
+          { text: '软件测试概论', link: '/Week 01/软件测试概论' },
+          { text: 'Linux基本操作', link: '/Week 01/Linux基本操作' }
         ]
       },
       {
@@ -35,7 +33,7 @@ export default defineConfig({
         items: [
           { text: 'LinuxShell', link: '/Week 02/LinuxShell' },
           { text: 'Docker部署', link: '/Week 02/Docker部署' },
-          { text: '测试用例的设计方法-01', link: '/Week 02/测试用例的设计方法-01' }
+          { text: '测试用例的设计方法', link: '/Week 02/测试用例的设计方法' }
         ]
       }
     ],
