@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "从零开始"
-  text: "学软件测试"
-  tagline: "个人笔记@lliangzii"
+  name: "个人笔记"
+  text: "@lliangzii"
+  tagline: "软件测试工程师"
   actions:
     - theme: brand
-      text: "   开  始   "
+      text: "开始阅读"
       link: /preface/前言
 ---
