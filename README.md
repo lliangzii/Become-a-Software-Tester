@@ -4,6 +4,8 @@
 
 尽管授课老师建议使用飞书构建知识库来记笔记，但笔者没有飞书账号，且更加习惯使用Markdown文件记录，所以搭建了此页面以记录知识点。
 
+[点击此处](https://lliangzii.github.io/Become-a-Software-Tester/)即可阅读
+
 ## 关于本页面
 
 本页面由[Vitepress](https://vitejs.cn/vitepress/)搭建，这是一个开源的由 Vite 和 Vue 驱动的静态站点生成器，可以将多个Markdown文件集合在一起以网页形式显示。
