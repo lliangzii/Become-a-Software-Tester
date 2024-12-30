@@ -35,6 +35,12 @@ export default defineConfig({
           { text: 'Docker部署', link: '/Week 02/Docker部署' },
           { text: '测试用例的设计方法', link: '/Week 02/测试用例的设计方法' }
         ]
+      },
+      {
+        text: 'Week 03',
+        items: [
+          { text: 'MySql', link: '/Week 03/MySql' }
+        ]
       }
     ],
 
