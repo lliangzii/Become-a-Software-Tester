@@ -31,7 +31,6 @@ export default defineConfig({
       {
         text: 'Week 02',
         items: [
-          { text: 'LinuxShell', link: '/Week 02/LinuxShell' },
           { text: 'Docker部署', link: '/Week 02/Docker部署' },
           { text: '测试用例的设计方法', link: '/Week 02/测试用例的设计方法' }
         ]
