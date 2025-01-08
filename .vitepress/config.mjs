@@ -44,7 +44,8 @@ export default defineConfig({
       {
         text: 'Week 04',
         items: [
-          { text: 'Git版本控制', link: '/Week 04/Git' }
+          { text: 'Git版本控制', link: '/Week 04/Git' },
+          { text: 'Web开发基础', link: '/Week 04/web' }
         ]
       }
     ],

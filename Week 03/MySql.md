@@ -391,7 +391,6 @@ ROUND()
 
 `SELECT ROUND(column_name,decimals) FROM TABLE_NAME;` 把数值字段四舍五入为指定的小数位数(不写位数则输出整数)
 
-
 where 和having之后都是筛选条件，但是有区别的：
 
 1.where在group by前， having在group by 之后
@@ -415,7 +414,11 @@ GROUP BY 字段;
 
 #### 10. 排序查询
 
+order by
+
 #### 11. 分页查询
+
+limit
 
 ### 多表查询
 
