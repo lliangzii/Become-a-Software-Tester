@@ -40,6 +40,12 @@ export default defineConfig({
         items: [
           { text: 'MySql', link: '/Week 03/MySql' }
         ]
+      },
+      {
+        text: 'Week 04',
+        items: [
+          { text: 'Git版本控制', link: '/Week 04/Git' }
+        ]
       }
     ],
 

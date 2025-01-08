@@ -117,8 +117,8 @@ P_Id int,
 -- 主键约束
 PRIMARY KEY (O_Id),
 -- 外键约束：
-CONSTRAINT fk_PerOrders FOREIGN KEY (P_Id)
-REFERENCES Persons(P_Id)
+CONSTRAINT FOREIGN KEY (P_Id)
+REFERENCES 另一张表名(P_Id)
 
 )
 ```
@@ -391,7 +391,27 @@ ROUND()
 
 `SELECT ROUND(column_name,decimals) FROM TABLE_NAME;` 把数值字段四舍五入为指定的小数位数(不写位数则输出整数)
 
+
+where 和having之后都是筛选条件，但是有区别的：
+
+1.where在group by前， having在group by 之后
+
+2.聚合函数（avg、sum、max、min、count），不能作为条件放在where之后，但可以放在having之后
+
 #### 9. 分组查询
+
+GROUP BY 语句用于结合聚合函数，根据一个或多个列对结果集进行分组
+
+常见用法：
+
+```sql
+SELECT 字段, 聚合函数(字段)
+FROM table_name
+WHERE 条件
+GROUP BY 字段;
+```
+
+注：where 关键字放在 group by前 且不支持聚合函数，having 关键字放在 group by 之后支持聚合函数
 
 #### 10. 排序查询
 
