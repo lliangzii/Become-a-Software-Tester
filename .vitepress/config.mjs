@@ -53,6 +53,20 @@ export default defineConfig({
         items: [
           { text: 'Python基础', link: '/Week 05/Python' }
         ]
+      },
+      {
+        text: 'Week 06',
+        items: [
+          { text: 'Unittest', link: '/Week 06/Unittest' },
+          { text: 'Selenium', link: '/Week 06/Selenium' }
+        ]
+      },
+      {
+        text: 'Week 07',
+        items: [
+          { text: 'TCP/IP', link: '/Week 07/TCPIP' },
+          { text: 'Https', link: '/Week 07/Https' }
+        ]
       }
     ],
 
