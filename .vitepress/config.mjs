@@ -64,8 +64,13 @@ export default defineConfig({
       {
         text: 'Week 07',
         items: [
-          { text: 'TCP/IP', link: '/Week 07/TCPIP' },
-          { text: 'Https', link: '/Week 07/Https' }
+          { text: 'web相关', link: '/Week 07/web' }
+        ]
+      },
+      {
+        text: 'Week 08',
+        items: [
+          { text: 'postman接口测试', link: '/Week 08/interface' }
         ]
       }
     ],

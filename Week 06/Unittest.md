@@ -28,7 +28,7 @@ TestCase用于封装一个具体的测试场景。
 
     ● unittest.TestCase.tearDownClass()      每个测试类执行之后进行调用
 
-    ● unittest.TestCase().id()		          返回测试用例名称
+    ● unittest.TestCase().id()			返回测试用例名称
 
     ● unittest.TestCase().assertEqual()         断言检测方法
 
@@ -96,7 +96,7 @@ TestSuite是一个容器，可用于存放并运行多个不同的测试用例�
 |--Runner.py					执行器文件
 ```
 
-### 3.1 开发提测代码
+### 1 开发提测代码
 
 computer.py 由开发人员提供
 
@@ -114,7 +114,7 @@ class  Computer:
 
 该代码实现了十进制的加减法功能
 
-### 3.2 实现TestCase
+### 2 实现TestCase
 
 unittest 提供了一些断言方法：
 
@@ -191,7 +191,7 @@ if __name__ == '__main__':
 
 ```
 
-### 3.3 实现TestSuite
+### 3 实现TestSuite
 
 SuiteA.py
 
@@ -212,7 +212,7 @@ if __name__ == '__main__':
 
 ```
 
-### 3.4 使用TestLoader批量添加用例
+### 4 使用TestLoader批量添加用例
 
 TestLoader组件可以批量添加用例到测试套对象中
 
@@ -228,8 +228,6 @@ eg.
 loader = unittest.TestLoader()
 suiteB = loader.loadTestsFromTestCase(Test_Computer)
 ```
-
-
 
 TestLoader类的discovery方法可以跨文件搜索满足条件的测试文件名，并将其用例添加到测试套：
 
@@ -250,13 +248,13 @@ suiteC = unittest.defaultTestLoader.discover(dir,pattern='test*.py')
 
 ```
 
-### 3.5 使用TextTestRunner执行测试套
+### 5 使用TextTestRunner执行测试套
 
 用法：
 
-①实例化执行器对象：runner = unittest.TextTestRunner() 
+①实例化执行器对象：runner = unittest.TextTestRunner()
 
-②执行测试套：runner.run(测试套) 
+②执行测试套：runner.run(测试套)
 
 Runner.py
 
