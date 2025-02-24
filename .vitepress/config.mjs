@@ -70,7 +70,15 @@ export default defineConfig({
       {
         text: 'Week 08',
         items: [
-          { text: 'postman接口测试', link: '/Week 08/interface' }
+          { text: 'postman接口测试', link: '/Week 08/interface' },
+          { text: 'adb测试', link: '/Week 08/adb' }
+        ]
+      },
+      {
+        text: 'Week 09',
+        items: [
+          { text: 'appium自动化测试', link: '/Week 09/appium' },
+          { text: '测试需求和分析', link: '/Week 09/srs' }
         ]
       }
     ],

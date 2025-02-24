@@ -174,7 +174,6 @@ switch_to.default_content()
 .isEnabled()		#检查元素是否启用
 ```
 
-
 ### 2. 下拉框选择
 
 对下拉框的操作，可导入Select类，利用其实现的方法操作：
@@ -233,4 +232,20 @@ ActionChains(dr).move_to_element(element).perform()	#悬停
 ActionChains(dr).double_click(element).perform()	#双击 
 
 ActionChains(dr).context_click(element).perform()	#右击 
+
+element.send_keys(Keys.CONTROL,"x")			#键盘输入CTRL + X 
+```
+
+## 四、其他功能
+
+### 1. 截图操作
+
+```python
+# 设置图片文件的路径和文件名
+filename='./screenshots/errorScreenShot.jpg' 
+dr.get_screenshot_as_file(filename)
+# dr.save_screenshot(filename)        # 需要传递图片文件的路径和文件名
+# dr.get_screenshot_as_file(filename) # 需要传递图片文件的路径和文件名
+# dr.get_screenshot_as_png()
+# dr.get_screenshot_as_base64()
 ```
